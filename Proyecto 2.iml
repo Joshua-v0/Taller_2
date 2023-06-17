@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+
+        while (true)
+        for(int hora = 0; hora < 13; hora ++) {
+            for( int segundos = 60; segundos <= 60; segundos ++) {
+                for(int minutos = 0; minutos < 60; minutos ++) {
+
+                    System.out.println("hora:" + hora +":"+segundos+":"+minutos);
+                }
+            }
+        }
+    }
+}
